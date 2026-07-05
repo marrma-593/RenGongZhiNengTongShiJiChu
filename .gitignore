@@ -1,0 +1,23 @@
+# 忽略所有数据集和模型文件
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.mp4
+*.pth
+*.h5
+*.pt
+
+# 忽略 Python 缓存和环境
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+.conda
+.vscode
+bert-base-chinese/
+data/
+trained_models/
+try.ipynb
